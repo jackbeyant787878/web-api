@@ -3,7 +3,7 @@ name: Deploy .NET 8 API to Tencent Cloud
 on:
   push:
     branches: [ master ]
-   workflow_dispatch: 
+  workflow_dispatch:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
